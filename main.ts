@@ -1,0 +1,20 @@
+input.onPinPressed(TouchPin.P0, function () {
+    basic.showString("Bienvenido ")
+    basic.pause(2000)
+})
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showIcon(IconNames.Pitchfork)
+    basic.pause(200)
+    basic.showIcon(IconNames.Happy)
+})
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(1)
+    basic.pause(2000)
+    basic.showNumber(2)
+    basic.pause(2000)
+    basic.showNumber(3)
+    basic.pause(2000)
+    basic.showNumber(4)
+    basic.pause(2000)
+    basic.showNumber(5)
+})
